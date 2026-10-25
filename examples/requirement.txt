@@ -1,0 +1,8 @@
+编写一个 Python 模块，提供两个函数：
+
+1. `bmi_category(weight_kg, height_m)`：根据体重和身高计算 BMI 并返回分类字符串
+   （"偏瘦" / "正常" / "超重" / "肥胖"，按中国标准划分），对非法输入抛出 ValueError。
+2. `running_pace(distance_km, minutes)`：计算每公里配速（分钟/公里），
+   距离或时间为 0 时抛出 ValueError。
+
+要求：公开函数带 docstring，使用 dataclass 返回详细结果对象更好。
